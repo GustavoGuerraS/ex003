@@ -1,0 +1,12 @@
+"""12)Faça um algoritmo para ler o salário de um funcionário e aumentai-o em
+15%. Após o aumento, desconte 8% de impostos. Imprima o salário
+inicial, o salário com o aumento e o salário final."""
+salário = float(input("Digite o seu salario"))
+aumentoDoSalario = salário *0.15
+totalAumento = salário + aumentoDoSalario
+print(f"seu salario sera {totalAumento}")
+
+
+descontoDoSalario = salário *0.08
+totalDesconto = salário - descontoDoSalario
+print(f"o seu salario com desconto de {totalDesconto}")
