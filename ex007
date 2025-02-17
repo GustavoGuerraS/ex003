@@ -1,0 +1,16 @@
+"""11)Uma fábrica de camisetas produz os tamanhos pequeno, médio e
+grande, cada uma sendo vendida respectivamente por 10, 12 e 15 reais.
+Construa um algoritmo em que o usuário forneça a quantidade de
+camisetas pequenas, médias e grandes referentes a uma venda, e a
+máquina informe quanto será o valor arrecadado."""
+camisetaPequena = int(input("quantidade de camisas pequenas"))
+camisaMedia = int(input("Digite a quantidade de camisetas medias vendidas"))
+camisetaGrande = int(input("Digite a quantidadde de camisetas grandes vendidas"))
+
+print (f"foram vendidas {camisetaPequena} de camiseta pequena")
+print(f"foram vendidas {camisaMedia} de camiseta media")
+print(f"foram vendidas {camisetaGrande} de camiseta grande")
+
+juntar = (camisetaPequena *10 ) + (camisaMedia*12) + (camisetaGrande*15)
+
+print(f"o valor arrecadadofoi {juntar}"
