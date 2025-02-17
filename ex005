@@ -1,0 +1,9 @@
+"""Desenvolva um programa que leia um número inteiro qualquer e que apresente
+o número informado, seguido do seu antecessor, seu sucessor e a soma entre
+eles."""
+numero = int(input("Digite um número inteiro"))
+inf = numero 
+ant = numero - 1
+suc = numero +1
+soma = inf + ant + suc
+print (f"Seu numero foi {inf} seu antecessor é {ant} seu sucessor é {suc} w a soma entre eles é {soma}")
